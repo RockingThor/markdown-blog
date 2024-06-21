@@ -1,1 +1,57 @@
-# Useful JavaScript Code Snippets
+# Blog Index
+
+<style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #000;
+  }
+
+  th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #000;
+  }
+
+  th {
+    background-color: #000;
+    color: #000;
+  }
+
+  
+
+  tr:hover {
+    background-color: #000;
+  }
+
+  a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
+
+Welcome to my blog! Here's the index of posts from Day 1 to Day 40:
+
+<table>
+  <thead>
+    <tr>
+      <th style="width: 30%; color: white;">Day</th>
+       <th style="width: 40%; color: white;">Date Added</th>
+      <th style="width: 30%; color: white;">Link</th>
+     
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Day 1</td>
+      <td>21st June, 2024</td>
+      <td><a href="/day/1" style="color: white;">/day/1</a></td>
+    </tr>
+    
+  </tbody>
+</table>
