@@ -40,17 +40,24 @@ Welcome to my blog! Here's the index of posts from Day 1 to Day 40:
 <table>
   <thead>
     <tr>
-      <th style="width: 30%; color: white;">Day</th>
-       <th style="width: 40%; color: white;">Date Added</th>
-      <th style="width: 30%; color: white;">Link</th>
-     
+      <th style="width: 20%; color: white;">Day</th>
+      <th style="width: 40%; color: white;">Content</th>
+       <th style="width: 20%; color: white;">Date Added</th>
+      <th style="width: 20%; color: white;">Link</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Day 1</td>
+      <td>Basics of Docker</td>
       <td>21st June, 2024</td>
-      <td><a href="/day/1" style="color: white;">/day/1</a></td>
+      <td><a href="/day/1" style="color: white; text-decoration: underline;">/day/1</a></td>
+    </tr>
+    <tr>
+      <td>Day 2</td>
+      <td>Dockerizing a react app using Ngnix</td>
+      <td>22nd June, 2024</td>
+      <td><a href="/day/2" style="color: white; text-decoration: underline;">/day/2</a></td>
     </tr>
     
   </tbody>

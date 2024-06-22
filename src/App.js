@@ -18,18 +18,17 @@ function App() {
     return (
         <ThemeContext.Provider value={value}>
             <Header />
-            <Router>
-                <Routes>
-                    <Route
-                        path="/"
-                        element={<HomePage />}
-                    />
-                    <Route
-                        path="/day/:id"
-                        element={<DetailPage />}
-                    />
-                </Routes>
-            </Router>
+
+            <Routes>
+                <Route
+                    path="/"
+                    element={<HomePage />}
+                />
+                <Route
+                    path="/day/:id"
+                    element={<DetailPage />}
+                />
+            </Routes>
         </ThemeContext.Provider>
     );
 }
