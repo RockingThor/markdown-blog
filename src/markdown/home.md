@@ -59,6 +59,12 @@ Welcome to my blog! Here's the index of posts from Day 1 to Day 40:
       <td>22nd June, 2024</td>
       <td><a href="/day/2" style="color: white; text-decoration: underline;">/day/2</a></td>
     </tr>
+    <tr>
+      <td>Day 3</td>
+      <td>Multi-stage docker build</td>
+      <td>23rd June, 2024</td>
+      <td><a href="/day/3" style="color: white; text-decoration: underline;">/day/3</a></td>
+    </tr>
     
   </tbody>
 </table>
