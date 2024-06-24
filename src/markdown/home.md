@@ -71,6 +71,12 @@
       <td>24th June, 2024</td>
       <td><a href="/day/4" style="color: white; text-decoration: underline;">/day/4</a></td>
     </tr>
+    <tr>
+      <td>Day 5</td>
+      <td>Kubernetes Cluster Architecture</td>
+      <td>25th June, 2024</td>
+      <td><a href="/day/5" style="color: white; text-decoration: underline;">/day/5</a></td>
+    </tr>
     
   </tbody>
 </table>
