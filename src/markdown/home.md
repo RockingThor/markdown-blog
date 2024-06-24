@@ -35,7 +35,7 @@
   }
 </style>
 
-Welcome to my blog! Here's the index of posts from Day 1 to Day 40:
+### Welcome to my blog! Here's the index of posts from Day 1 to Day 40:
 
 <table>
   <thead>
@@ -64,6 +64,12 @@ Welcome to my blog! Here's the index of posts from Day 1 to Day 40:
       <td>Multi-stage docker build</td>
       <td>23rd June, 2024</td>
       <td><a href="/day/3" style="color: white; text-decoration: underline;">/day/3</a></td>
+    </tr>
+    <tr>
+      <td>Day 4</td>
+      <td>Basics of Kubernetes</td>
+      <td>24th June, 2024</td>
+      <td><a href="/day/4" style="color: white; text-decoration: underline;">/day/4</a></td>
     </tr>
     
   </tbody>
