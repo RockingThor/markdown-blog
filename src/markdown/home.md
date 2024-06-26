@@ -83,6 +83,12 @@
       <td>26th June, 2024</td>
       <td><a href="/day/6" style="color: white; text-decoration: underline;">/day/6</a></td>
     </tr>
+    <tr>
+      <td>Day 7</td>
+      <td>Pods in Kubernetes & YAML</td>
+      <td>27th June, 2024</td>
+      <td><a href="/day/7" style="color: white; text-decoration: underline;">/day/7</a></td>
+    </tr>
     
   </tbody>
 </table>
