@@ -89,6 +89,11 @@
       <td>27th June, 2024</td>
       <td><a href="/day/7" style="color: white; text-decoration: underline;">/day/7</a></td>
     </tr>
-    
+    <tr>
+      <td>Day 8</td>
+      <td>Kubernetes Deployment, Replication Controller and ReplicaSet</td>
+      <td>28th June, 2024</td>
+      <td><a href="/day/8" style="color: white; text-decoration: underline;">/day/8</a></td>
+    </tr>
   </tbody>
 </table>
