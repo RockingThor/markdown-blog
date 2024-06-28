@@ -153,7 +153,7 @@ A ReplicaSet in Kubernetes is a resource that ensures a specified number of iden
 
 In Kubernetes, a Deployment is a higher-level abstraction that manages ReplicaSets and provides declarative updates to applications. It allows you to define the desired state of your application in a YAML file, and Kubernetes ensures that the actual state matches the desired state. Deployments are used to create, update, and scale sets of pods, and they provide mechanisms for rolling updates and rollbacks.
 
-<img src="https://d2lff49aaqvgse.cloudfront.net/cka-images/day8/11th_8.png" alt="Docker vs VM" style="max-width:100%; height:auto;">
+<img src="https://d2lff49aaqvgse.cloudfront.net/cka-images/day8/11th_9.png" alt="Docker vs VM" style="max-width:100%; height:auto;">
 
 ### Key Features of Deployments:
 
