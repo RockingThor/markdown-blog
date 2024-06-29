@@ -5,13 +5,13 @@ import { useEffect, useState } from "react";
 import Markdown from "markdown-to-jsx";
 import Code from "./Code";
 
-function DetailPage() {
+function Terraform() {
     let { id } = useParams();
     const [postContent, setPostContent] = useState("");
 
     useEffect(() => {
         try {
-            import(`../../kubernetes/ckaday${id}.md`).then((res) => {
+            import(`../../terraform/day${id}.md`).then((res) => {
                 fetch(res.default)
                     .then((response) => response.text())
                     .then((response) => setPostContent(response));
@@ -43,4 +43,4 @@ function DetailPage() {
     );
 }
 
-export default DetailPage;
+export default Terraform;
