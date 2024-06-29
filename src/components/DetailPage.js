@@ -11,11 +11,13 @@ function DetailPage() {
 
     useEffect(() => {
         try {
-            import(`../../kubernetes/ckaday${id}.md`).then((res) => {
-                fetch(res.default)
-                    .then((response) => response.text())
-                    .then((response) => setPostContent(response));
-            });
+            import(`../../blog-content/kubernetes/ckaday${id}.md`).then(
+                (res) => {
+                    fetch(res.default)
+                        .then((response) => response.text())
+                        .then((response) => setPostContent(response));
+                }
+            );
         } catch (error) {
             console.log(error);
             setPostContent("Error");
