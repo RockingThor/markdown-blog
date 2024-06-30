@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import HomePage from "./components/HomePage";
 import DetailPage from "./components/DetailPage";
 import Terraform from "./components/Terraform";
+import GithubActions from "./components/github_actons";
 
 // Create Context
 export const ThemeContext = createContext();
@@ -32,6 +33,10 @@ function App() {
                 <Route
                     path="/terraform/day/:id"
                     element={<Terraform />}
+                />
+                <Route
+                    path="/github-actions/day/:id"
+                    element={<GithubActions />}
                 />
             </Routes>
         </ThemeContext.Provider>

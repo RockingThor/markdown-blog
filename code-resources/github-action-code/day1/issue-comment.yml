@@ -1,0 +1,23 @@
+name: Add Comment to Issue
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  add-comment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      - name: Add comment
+        uses: peter-evans/create-or-update-comment@v1
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          body: |
+            Hello there! 👋 Thanks for opening this issue.
+            We will look into it shortly.
+
+            Cheers!
+          token: ${{ secrets.TOKEN }}

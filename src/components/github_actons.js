@@ -5,17 +5,19 @@ import { useEffect, useState } from "react";
 import Markdown from "markdown-to-jsx";
 import Code from "./Code";
 
-function Terraform() {
+function GithubActions() {
     let { id } = useParams();
     const [postContent, setPostContent] = useState("");
 
     useEffect(() => {
         try {
-            import(`../../blog-content/terraform/day${id}.md`).then((res) => {
-                fetch(res.default)
-                    .then((response) => response.text())
-                    .then((response) => setPostContent(response));
-            });
+            import(`../../blog-content/github-actions/day${id}.md`).then(
+                (res) => {
+                    fetch(res.default)
+                        .then((response) => response.text())
+                        .then((response) => setPostContent(response));
+                }
+            );
         } catch (error) {
             console.log(error);
             setPostContent("Error");
@@ -43,4 +45,4 @@ function Terraform() {
     );
 }
 
-export default Terraform;
+export default GithubActions;
