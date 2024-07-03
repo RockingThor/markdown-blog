@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+    name: loadbalancer-cka
+    labels:
+        app: cka-demo
+spec:
+    selector:
+        app: cka-demo
+    ports:
+        - port: 80
+    type: LoadBalancer
