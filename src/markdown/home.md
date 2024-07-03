@@ -95,5 +95,11 @@
       <td>28th June, 2024</td>
       <td><a href="/day/8" style="color: white; text-decoration: underline;">/day/8</a></td>
     </tr>
+    <tr>
+      <td>Day 9</td>
+      <td>Kubernetes Services</td>
+      <td>2nd July, 2024</td>
+      <td><a href="/day/9" style="color: white; text-decoration: underline;">/day/9</a></td>
+    </tr>
   </tbody>
 </table>
