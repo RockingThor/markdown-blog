@@ -98,8 +98,14 @@
     <tr>
       <td>Day 9</td>
       <td>Kubernetes Services</td>
-      <td>2nd July, 2024</td>
+      <td>3rd July, 2024</td>
       <td><a href="/day/9" style="color: white; text-decoration: underline;">/day/9</a></td>
+    </tr>
+    <tr>
+      <td>Day 10</td>
+      <td>Kubernetes Namespace</td>
+      <td>4th July, 2024</td>
+      <td><a href="/day/10" style="color: white; text-decoration: underline;">/day/10</a></td>
     </tr>
   </tbody>
 </table>
