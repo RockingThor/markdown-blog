@@ -107,5 +107,11 @@
       <td>4th July, 2024</td>
       <td><a href="/day/10" style="color: white; text-decoration: underline;">/day/10</a></td>
     </tr>
+    <tr>
+      <td>Day 11</td>
+      <td>Multi Container Pod Kubernetes - Sidecar vs Init Container</td>
+      <td>6th July, 2024</td>
+      <td><a href="/day/11" style="color: white; text-decoration: underline;">/day/11</a></td>
+    </tr>
   </tbody>
 </table>
