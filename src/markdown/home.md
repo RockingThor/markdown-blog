@@ -113,5 +113,11 @@
       <td>6th July, 2024</td>
       <td><a href="/day/11" style="color: white; text-decoration: underline;">/day/11</a></td>
     </tr>
+    <tr>
+      <td>Day 12</td>
+      <td>Kubernetes Daemonset, Job and Cronjob</td>
+      <td>7th July, 2024</td>
+      <td><a href="/day/12" style="color: white; text-decoration: underline;">/day/12</a></td>
+    </tr>
   </tbody>
 </table>
