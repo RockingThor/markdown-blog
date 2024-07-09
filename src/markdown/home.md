@@ -119,5 +119,11 @@
       <td>7th July, 2024</td>
       <td><a href="/day/12" style="color: white; text-decoration: underline;">/day/12</a></td>
     </tr>
+    <tr>
+      <td>Day 13</td>
+      <td>Static Pods, Manual Scheduling, Labels, and Selectors in Kubernetes</td>
+      <td>9th July, 2024</td>
+      <td><a href="/day/13" style="color: white; text-decoration: underline;">/day/13</a></td>
+    </tr>
   </tbody>
 </table>

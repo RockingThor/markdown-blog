@@ -5,6 +5,7 @@ import HomePage from "./components/HomePage";
 import DetailPage from "./components/DetailPage";
 import Terraform from "./components/Terraform";
 import GithubActions from "./components/github_actons";
+import AWS from "./components/Aws";
 
 // Create Context
 export const ThemeContext = createContext();
@@ -37,6 +38,10 @@ function App() {
                 <Route
                     path="/github-actions/day/:id"
                     element={<GithubActions />}
+                />
+                <Route
+                    path="/aws/day/:id"
+                    element={<AWS />}
                 />
             </Routes>
         </ThemeContext.Provider>
