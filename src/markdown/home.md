@@ -122,8 +122,15 @@
     <tr>
       <td>Day 13</td>
       <td>Static Pods, Manual Scheduling, Labels, and Selectors in Kubernetes</td>
-      <td>9th July, 2024</td>
+      <td>10th July, 2024</td>
       <td><a href="/day/13" style="color: white; text-decoration: underline;">/day/13</a></td>
+    </tr> 
+    <tr>
+      <td>Day 14</td>
+      <td>Taints and Tolerations in Kubernetes</td>
+      <td>11th July, 2024</td>
+      <td><a href="/day/14" style="color: white; text-decoration: underline;">/day/14</a></td>
     </tr>
+
   </tbody>
 </table>
