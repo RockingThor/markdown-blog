@@ -6,6 +6,8 @@ import DetailPage from "./components/DetailPage";
 import Terraform from "./components/Terraform";
 import GithubActions from "./components/github_actons";
 import AWS from "./components/Aws";
+import Go from "./components/Go";
+import GoHomePage from "./components/GoHomePage";
 
 // Create Context
 export const ThemeContext = createContext();
@@ -42,6 +44,14 @@ function App() {
                 <Route
                     path="/aws/day/:id"
                     element={<AWS />}
+                />
+                <Route
+                    path="/go/day/:id"
+                    element={<Go />}
+                />
+                <Route
+                    path="/go"
+                    element={<GoHomePage />}
                 />
             </Routes>
         </ThemeContext.Provider>

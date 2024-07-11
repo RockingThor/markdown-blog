@@ -1,6 +1,6 @@
 # Kubernetes Node Affinity
 
-    Day 14 of 40 days of CKA challenge.
+    Day 15 of 40 days of CKA challenge.
 
 ---
 
