@@ -131,6 +131,11 @@
       <td>11th July, 2024</td>
       <td><a href="/day/14" style="color: white; text-decoration: underline;">/day/14</a></td>
     </tr>
-
+    <tr>
+      <td>Day 15</td>
+      <td>Kubernetes Node Affinity</td>
+      <td>12th July, 2024</td>
+      <td><a href="/day/15" style="color: white; text-decoration: underline;">/day/15</a></td>
+    </tr>
   </tbody>
 </table>
